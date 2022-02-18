@@ -29,7 +29,7 @@ var four = getFirstName({ firstName: 'Lelouche', lastName: 'Lamperouge' });
 console.log('first name: ', four);
 
 function getLastElement(array) {
-  return array[array.length - 2];
+  return array[array.length - 1];
 }
 var five = getLastElement(['propane', 'and', 'propane', 'accessories']);
 console.log('get last element: ', five);

@@ -1,37 +1,56 @@
-h1 {
+* {
   font-family: "Brandon Grotesque", sans-serif;
-  color: red;
-  font-size: large;
-  font-weight: bolder;
+}
+
+h2 {
+  color: salmon;
   text-align: center;
-  letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
 .container {
-  max-width: 32%;
-  margin: auto;
-  font-size: xx-small;
-  font-weight: 400;
+  display: flex;
+  justify-content: center;
 }
 
-label {
-  font-family: "Brandon Grotesque", sans-serif;
-  font-size: 10px;
-  padding-left: 15px;
+::placeholder {
+  font-family: atlasGrotesk, sans-serif;
+  padding-left: 8px;
+}
+
+p {
+  padding-left: 8px;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 2px;
 }
 
 select {
   width: 100%;
-  padding: 10px 0;
-  background-color: gainsboro;
+  padding: 5px 0;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 8px;
+  border-color: gainsboro;
+}
+
+.custom {
+  display: flex;
+  justify-content: flex-end;
 }
 
 button {
+  margin-top: 15px;
+  border: 0 solid;
+  padding: 5px;
+  width: 80px;
+  background-color: salmon;
   color: white;
-  background-color: red;
-  border-style: none;
-  border-radius: 15px;
-  padding: 10px 15px;
-  font-size: 12px;
-  float: right;
+  border-radius: 20px;
 }

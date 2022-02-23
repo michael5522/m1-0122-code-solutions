@@ -22,9 +22,11 @@
 }
 
 .one-eight-contact-us {
-  background-color: lightblue;
-  padding: 2px 16px;
+  margin-top: 10px;
+  background-color: darkblue;
+  padding: 12px 9px;
   border-radius: 6px;
+  color: white;
 }
 
 .block2 {
@@ -39,8 +41,8 @@
   background-image:
     url(
       "./images/hero.jpg"
-    ),
-    linear-gradient(transparent, rgb(0 0 0 / 75%));
+    );
+  filter: grayscale(50%);
   background-size: cover;
   position: relative;
 }
@@ -96,6 +98,9 @@
 .block3H3 {
   line-height: 2;
   text-align: center;
+  color: grey;
+  font-size: 14px;
+  margin-top: 0;
 }
 
 .column-one-half {
@@ -175,5 +180,20 @@
 }
 
 .two-eight {
-  width: 20%;
+  width: 25%;
+}
+
+.logoHeader {
+  margin-top: 20px;
+  width: 40%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  color: gainsboro;
+  margin-top: 25px;
 }

@@ -1,0 +1,30 @@
+body {
+  height: 100%;
+  font-family: Karla, sans-serif;
+  letter-spacing: 0.25rem;
+  color: rgb(100 100 100);
+  font-size: 2em;
+}
+
+.element {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.space {
+  margin-left: 15px;
+}

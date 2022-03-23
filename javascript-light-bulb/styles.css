@@ -1,0 +1,37 @@
+body {
+  height: 100%;
+}
+
+.light {
+  display: flex;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: yellow;
+  box-shadow: 5px 10px 18px #888;
+}
+
+.light-background {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255 226 147);
+}
+
+.dark {
+  display: flex;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: grey;
+  box-shadow: 5px 10px 18px #888;
+}
+
+.dark-background {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}

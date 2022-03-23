@@ -1,3 +1,4 @@
+
 /* eslint-disable no-console */
 /* exported isAnagram */
 
@@ -53,3 +54,4 @@ function isAnagram(firstString, secondString) {
   // console.log('XXXXXXtotal length:', gg, counter);
   return false;
 }
+

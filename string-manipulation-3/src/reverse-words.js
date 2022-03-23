@@ -1,4 +1,5 @@
 /* exported reverseWords */
+
 function reverseWords(string) {
   var wordSplit = string.split(' ');
   // console.log('111', wordSplit);
@@ -13,3 +14,4 @@ function reverseWords(string) {
   }
   return final.join(' ');
 }
+

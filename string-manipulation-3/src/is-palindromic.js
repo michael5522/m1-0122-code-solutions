@@ -1,4 +1,5 @@
 /* exported isPalindromic */
+
 function isPalindromic(string) {
   var reverse = [];
   var array1 = string.split(' ').join('').split('');
@@ -21,3 +22,4 @@ function isPalindromic(string) {
   // console.log('--fail--');
   return false;
 }
+
